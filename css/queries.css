@@ -1,0 +1,43 @@
+/* Media Queries */
+
+@media (max-width:991px) {
+
+    html {
+        font-size: 55%;
+    }
+
+       
+    body {
+        padding-left: 0;
+    }
+
+    .header {
+        left: -110%;
+    }
+
+    .header.active {
+        left: 0%;
+        transition: .4s linear;
+    }
+
+    #menu-btn {
+        display: initial;
+    }
+
+    .footer{
+       width: 120%; 
+    }
+}
+
+@media (max-width:450px) {
+
+    html {
+        font-size: 50%;
+    }
+
+    .header {
+        width: 100%;
+        border-right: 0;
+    }
+
+}
